@@ -1,0 +1,2 @@
+# sardana-GreateyesLabViewCounterTimerController
+Sardana CounterTimerController for LabView-controlled Greateyes CCDs
