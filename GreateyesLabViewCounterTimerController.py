@@ -99,11 +99,11 @@ class GreateyesLabViewCounterTimerController(CounterTimerController):
 
     def __init__(self, inst, props, *args, **kwargs):
         """Constructor"""
-        super(greateyesCounterTimerController,
+        super(GreateyesLabViewCounterTimerController,
               self).__init__(inst, props, *args, **kwargs)
-        print 'GreatEyes Initialization ...',
+        print ('GreatEyes Initialization ...')
         self.ge = greatEyes(self.IP, self.port)
-        print 'SUCCESS'
+        print ('SUCCESS')
         self.data = []
         self.isAquiring = False
         self._axes = {}
